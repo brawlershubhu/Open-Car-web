@@ -1,0 +1,201 @@
+body {
+  background-color: #B3B3B3;
+}
+
+
+/* Nav bar */
+.nav {
+  display: flex;
+  height: 100px;
+  width: 100%;
+
+}
+
+#logo {
+  width: 100px;
+  height: 90px;
+  border-radius: 80px;
+  position: relative;
+  top: 0px;
+  border: 4px solid #42445A;
+  left: 0px;
+
+
+}
+
+.navlinks {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 3px;
+  padding: 3px;
+  color: white;
+  position: relative;
+  bottom: 15px;
+  top: 15px;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.navlinks:hover {
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+
+
+}
+
+.nav::before {
+  content: "";
+  background-color: #5F5F5F;
+  height: 100px;
+  width: 100%;
+  opacity: 0.28;
+  z-index: -5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* main heading */
+.body1 {
+  position: relative;
+  top: 0px;
+  height: 320px;
+}
+
+.body1::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.99;
+  z-index: -10;
+  background: url('Bg2.png') no-repeat center center/cover;
+
+}
+
+/*services */
+.services {
+  position: relative;
+  height: 480px;
+}
+
+.services::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.99;
+  z-index: -10;
+  background: url('Bg.jpg') no-repeat center center/cover;
+
+
+}
+
+.servmain {
+  display: flex;
+
+}
+
+.servsub {
+  border: 3px solid brown;
+  border-radius: 8px;
+  width: 33%;
+  height: 320px;
+  margin: 3px;
+  background-color:#F5F5F5;
+  overflow-y: scroll;
+}
+
+.servsub p {
+  color: black;
+  text-align: center;
+  font-family: 'Prata', serif;
+  font-size: 1.4rem;
+
+}
+
+
+.servsub img {
+  width: 280px;
+  height: 140px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 13px;
+}
+
+
+/*partners*/
+.partners{
+  display:flex;
+}
+.partmain{
+  position: relative;
+  
+}
+
+.partmain::before{
+   content: "";
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.99;
+  z-index: -10;
+  background: url('Bg3.jpg') no-repeat center center/cover;
+
+
+}
+
+
+.partsub img{
+  width:32%;
+  height:30%;
+ 
+  margin:15px;
+  padding:0px;
+  float:center;
+ 
+
+}
+/*re use classes*/
+.h-primary {
+  text-align: center;
+  color: white;
+  
+  font-family: 'Prata', serif;
+}
+
+.h-secondry {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-family: 'Prata', serif;
+  position:relative;
+  font-size: 1em;
+
+}
+.h-secondry::before{
+     content: "";
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -10;
+  background-color:black;
+
+
+
+}
+.h-subprime {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+
+  font-family: 'EB Garamond', serif;
+
+}
